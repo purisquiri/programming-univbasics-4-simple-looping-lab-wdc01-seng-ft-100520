@@ -28,7 +28,5 @@ def return_string_array(array)
   
   while array == Integer do
     puts array.to_s
-  else
-    put array
   end
 end  
