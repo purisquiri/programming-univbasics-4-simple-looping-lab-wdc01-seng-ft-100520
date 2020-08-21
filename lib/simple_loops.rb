@@ -25,9 +25,10 @@ def output_array(array)
 end  
 
 def return_string_array(array)
-  count = 0
-  while count < array.length do
+  
+  while array == Integer do
     puts array.to_s
-    count += 1
+  else
+    put array
   end
 end  
